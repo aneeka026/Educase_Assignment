@@ -3,7 +3,7 @@
 This is my project for the Educase assignment.  
 It is built using **React.js** and **Vite**.
 
-## Live Link : 
+## Live Link : https://assignmentaneeka.netlify.app/signup
 
 ## Project Details
 - Features Login, Signup, Settings, and Welcome pages.
