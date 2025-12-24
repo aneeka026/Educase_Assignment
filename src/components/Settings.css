@@ -1,0 +1,86 @@
+.settings-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-card {
+  width: 100%;
+  max-width: 375px;
+  min-height: 100vh;
+  background: #F7F8F9;
+}
+
+.settings-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #111827;
+  background-color: #FFFFFF;
+  width: 375px;
+  height: 38px;
+  justify-content: center;
+  padding: 20px 0 0  20px;
+}
+
+.profile-section {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 24px;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.avatar-wrapper img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.edit-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.edit-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.user-info h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1D2226;
+}
+
+.user-info p {
+  font-size: 13px;
+  color: #1D2226;
+  margin-top: 2px;
+}
+
+.user-description {
+  margin-top: 24px;
+  padding: 18px 20px 22px 18px;
+  border-bottom: 1px dotted #CBCBCB;
+  font-size: 14px;
+  color: #1D2226;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+
+@media (min-width: 768px) {
+  .settings-card {
+    min-height: auto;
+  }
+}

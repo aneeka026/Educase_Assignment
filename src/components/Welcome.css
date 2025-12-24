@@ -1,0 +1,73 @@
+.welcome-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-card {
+  width: 375px;
+  min-height: 100vh;
+  background: #F7F8F9;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.welcome-card h1 {
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;          
+  font-size: 28px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+}
+
+.welcome-card p {
+  margin-top: 8px;
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 0.6;
+  width: 232px;
+}
+
+.btn-primary {
+  margin-top: 24px;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  background: #6C25FF;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  background: #6C25FF4B;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #6d28d9;
+}
+
+.btn-secondary:hover {
+  background: #c4b5fd;
+}
+
